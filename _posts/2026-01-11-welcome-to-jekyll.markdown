@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2026-01-11 13:07:28 +0800
-categories: jekyll update
+title: "Welcome to Jekyll!"
+date: 2026-01-11 13:07:28 +0800
+# 文章标签，可以有 0 个或多个
+tags: [test]
+# 用于控制是否开启文章侧栏目录
+toc: true
+# 用于控制是否开启文章评论区
+comments: true
+author: buyourong
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
