@@ -119,3 +119,10 @@ $li-child-size-ratio: 0.95;
 $dt-width: 180px;
 $dt-dd-space: 20px;
 $dd-position: $dt-width+$dt-dd-space;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
