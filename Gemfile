@@ -36,3 +36,4 @@ gem "jekyll-sitemap"
 gem "jekyll-paginate", "~> 1.1"
 gem 'logger'
 gem "jekyll-mermaid"
+gem 'sass', '< 4.0.0'
