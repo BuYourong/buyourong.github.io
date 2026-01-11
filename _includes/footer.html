@@ -1,5 +1,16 @@
 {% include svg-icons.html %}
 
-{% if site.footer-text %}
+<!-- {% if site.footer-text %}
 <p>{{ site.footer-text }}</p>
+{% endif %} -->
+
+{% assign current_year = 'now' | date: "%Y" | plus: 0 %}
+{% assign start_year = site.start_year | default: 2026 | plus: 0 %}
+
+{% if current_year == start_year %}
+{% assign year_display = start_year %}
+{% else %}
+{% assign year_display = start_year | append: '-' | append: current_year %}
 {% endif %}
+
+<p>Copyright (c) {{ year_display }} {{ site.name }}</p>

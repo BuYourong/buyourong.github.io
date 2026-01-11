@@ -26,9 +26,12 @@ footer-links:
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2026 与骐骥亢轭
+# footer-text: Copyright (c) 2026 与骐骥亢轭
 
-url: https://qjke.top
+# 添加起始年份配置
+start_year: 2026
+
+url: https://buyourong.top
 
 permalink: /:title/
 paginate_path: /page:num/
