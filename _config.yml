@@ -1,8 +1,7 @@
+title: "与骐骥亢轭的博客"
 name: "与骐骥亢轭"
 description: "与骐骥亢轭的个人技术博客"
 
-# avatar: https://buyourong.github.io/images/avatar.jpg
-# favicon: https://buyourong.github.io/images/favicon.ico
 avatar: ../images/avatar.jpg
 favicon: ../images/favicon.ico
 
@@ -29,7 +28,7 @@ footer-links:
 
 footer-text: Copyright (c) 2026 buyourong
 
-url: https://buyourong.github.io
+url: https://buyourong.top
 
 permalink: /:title/
 paginate_path: /page:num/
@@ -63,6 +62,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jekyll-mermaid
 
 # Exclude these files from your production _site
 exclude:
@@ -70,3 +70,16 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+
+# Mermaid 配置
+mermaid:
+  # 版本，可选：latest 或指定版本
+  version: "latest"
+  # 主题：default, dark, forest, neutral
+  theme: "default"
+  # 配置选项
+  config:
+    startOnLoad: true
+    securityLevel: 'loose'
+    themeCSS: |
+      .mermaid { font-family: 'Arial'; }

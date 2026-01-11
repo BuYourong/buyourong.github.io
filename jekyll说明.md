@@ -2,6 +2,11 @@
 
 bundle exec jekyll serve
 
+# 使用bundle添加依赖
+
+bundle add xxx
+bundle install
+
 # 说明
 
 ## 文章标签，可以有 0 个或多个

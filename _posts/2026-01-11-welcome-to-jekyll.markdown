@@ -7,7 +7,7 @@ tags: [test]
 # 用于控制是否开启文章侧栏目录
 toc: true
 # 用于控制是否开启文章评论区
-comments: true
+comments: false
 author: buyourong
 ---
 
