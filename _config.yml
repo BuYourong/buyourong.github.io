@@ -2,8 +2,8 @@ title: "与骐骥亢轭的博客"
 name: "与骐骥亢轭"
 description: "与骐骥亢轭的个人技术博客"
 
-avatar: ../images/avatar.jpg
-favicon: ../images/favicon.ico
+avatar: /images/avatar.jpg
+favicon: /images/favicon.ico
 
 navigation:
   - name: 首页
@@ -74,12 +74,12 @@ exclude:
 # Mermaid 配置
 mermaid:
   # 版本，可选：latest 或指定版本
-  version: "latest"
+  # version: "latest"
   # 主题：default, dark, forest, neutral
   theme: "default"
   # 配置选项
-  config:
-    startOnLoad: true
-    securityLevel: 'loose'
-    themeCSS: |
-      .mermaid { font-family: 'Arial'; }
+  # config:
+  #   startOnLoad: true
+  #   securityLevel: 'loose'
+  #   themeCSS: |
+  #     .mermaid { font-family: 'Arial'; }
